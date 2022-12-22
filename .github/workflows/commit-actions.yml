@@ -1,0 +1,6 @@
+name: On Commit Actions
+on: [push,pull_request]
+jobs:
+  common_commit_actions:
+    name: Common Commit Actions
+    uses: metron-labs/metron-github-actions/.github/workflows/common-commit-actions.yml@main
