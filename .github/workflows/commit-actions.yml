@@ -1,8 +1,8 @@
 name: On Commit Actions
 on: push
-env:
-  PYTHON_VERSION: "3.8"
 jobs:
   common_commit_actions:
     name: Common Commit Actions
     uses: jamaluddin-metron/github-actions-source/.github/workflows/common-commit-actions.yml@main
+    with:
+      python_version: "3.8"
