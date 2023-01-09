@@ -1,5 +1,7 @@
 def print_hello_name(name: str):
-
+    '''
+        A basic Method to print User Input Name
+    '''
 
     print(f"Hello {name}")
 
