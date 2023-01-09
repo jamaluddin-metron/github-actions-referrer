@@ -4,3 +4,5 @@ jobs:
   common_commit_actions:
     name: Common Commit Actions
     uses: jamaluddin-metron/github-actions-source/.github/workflows/common-commit-actions.yml@main
+    env:
+      PYTHON_VERSION: "3.8"
